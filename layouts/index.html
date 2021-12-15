@@ -8,14 +8,21 @@
             {{ if .Site.Params.Portrait.Path }}
                <img src="{{ .Site.Params.Portrait.Path }}" class="circle" alt="{{ .Site.Params.Portrait.Alt }}" style="max-width:{{ .Site.Params.Portrait.MaxWidth }}" />
             {{ end }}
+           
+            <h1 style="margin-bottom: 80px; font-style: italic; margin-top: 150px;">{{ .Site.Title }}</h1>
 
-            <h1>{{ .Site.Title }}</h1>
-            {{- with .Site.Params.homeSubtitle }}
-                <p>{{.}}</p>
-            {{- end }}
+            <p style=" color: #f16e76; text-align: center; font-size: 1.5rem; font-style: italic; margin-top: 40px;">
+            ✨ Moments are like <span style="color: #ffc107">{CSS}</span> to the
+            <span style="color: burlywood">< HTML/></span> of our life,</p>
+
+            <p style=" padding-top: 0; color: #f16e76; text-align: center; font-size: 1.5rem; font-style: italic;">
+             Make those count! ✨
+            </p>
+
+
 
             {{- with .Site.Params.social }}
-                <div>
+                <div style="margin-top: 100px;">
                     {{ partial "social-icons.html" . }}
                 </div>
             {{- end }}

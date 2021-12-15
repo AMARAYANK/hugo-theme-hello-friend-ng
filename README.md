@@ -1,5 +1,4 @@
 # Hello Friend NG 
-# Hello You!
 
 ![Hello Friend NG](https://dsh.re/d914c)
 
@@ -12,7 +11,6 @@ This theme was highly inspired by the [hello-friend](https://github.com/panr/hug
 ## Table of Contents
 
 - [Hello Friend NG](#hello-friend-ng)
-- [Hello You!](#hello-you)
   - [General informations](#general-informations)
   - [Table of Contents](#table-of-contents)
   - [Features](#features)
